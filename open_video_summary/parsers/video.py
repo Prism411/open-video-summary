@@ -12,9 +12,10 @@ from open_video_summary.utils.config import PROJECT_DIR
 
 
 class VideoLoader:
-
     @staticmethod
-    def load_videos_from_directory(directory: str, video_file_format: str = "mp4") -> list[Video]:
+    def load_videos_from_directory(
+        directory: str, video_file_format: str = "mp4"
+    ) -> list[Video]:
         return [
             VideoLoader.video_from_file(path.as_posix())
             for path in Path(directory).rglob(f"*.{video_file_format}")
@@ -48,12 +49,10 @@ class VideoLoader:
         return Video(
             name=video_path.stem,
             path=(
-                video_path.absolute()
-                if not video_path.is_absolute()
-                else video_path
-            ).as_posix()
+                video_path.absolute() if not video_path.is_absolute() else video_path
+            ).as_posix(),
         )
-    
+
     @staticmethod
     def video_from_dict(video_data: dict) -> Video:
         return from_dict(data_class=Video, data=video_data)
@@ -67,7 +66,7 @@ class VideoDumper:
                 list(map(VideoDumper.video_to_dict, videos)),
                 file,
                 indent=4,
-                ensure_ascii=False
+                ensure_ascii=False,
             )
 
     @staticmethod

@@ -8,6 +8,7 @@ class LLMAdapter:
     def generate_pattern(self, prompt: str, pattern: str, **kwargs) -> str:
         pass
 
+
 class OllamaAdapter(LLMAdapter):
     def __init__(
         self, model: str = "gemma2", max_attempts: int = 3, attempts_interval: int = 3
@@ -20,9 +21,8 @@ class OllamaAdapter(LLMAdapter):
         attempt = 0
         while attempt < self.max_attempts:
             try:
-                response = ollama.generate(
-                    model=self.model, prompt=prompt, **kwargs
-                ).get("response")
+                response = ollama.generate(model=self.model, prompt=prompt, **kwargs)
+                response = response.get("response")
                 result = search(pattern, response, flags=DOTALL)
                 if result is not None:
                     return result.group(0)
