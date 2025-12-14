@@ -30,13 +30,19 @@ class TopicsBasedVideoSegmenter(BaseVideoSegmenter):
         llm_adapter: LLMAdapter = OllamaAdapter(),
     ) -> None:
         self.whisper_model = whisper_model
-        self.min_segment_length = (min_segment_length,)
+        self.min_segment_length = min_segment_length
         self.max_segment_length = max_segment_length
         self.max_subtopics = max_subtopics
         self.prompts_template = prompts_template
         self.llm_adapter = llm_adapter
 
-    def calculate_max_subtopics(self, video_duration_in_sec: int, min_topics: int = 3, exponent: float = 0.5, scale: float = 2.0) -> int:
+    def calculate_max_subtopics(
+        self,
+        video_duration_in_sec: int,
+        min_topics: int = 3,
+        exponent: float = 0.5,
+        scale: float = 2.0,
+    ) -> int:
         minutes = ceil(video_duration_in_sec / 60)
         return ceil(min_topics + scale * (minutes**exponent - 1))
 
@@ -53,13 +59,13 @@ class TopicsBasedVideoSegmenter(BaseVideoSegmenter):
         )
         return response.strip()
 
-    def load_video_topics(
-        self, full_document: str, video: Video
-    ) -> dict[str, str]:
+    def load_video_topics(self, full_document: str, video: Video) -> dict[str, str]:
         clip = VideoFileClip(video.path)
         video_duration = clip.duration
 
-        max_subtopics = self.max_subtopics or self.calculate_max_subtopics(video_duration_in_sec=int(video_duration))
+        max_subtopics = self.max_subtopics or self.calculate_max_subtopics(
+            video_duration_in_sec=int(video_duration)
+        )
         topics_prompt = self.prompts_template.generate_subtopics.format(
             full_video_transcript=full_document, max_subtopics=max_subtopics
         )
@@ -69,9 +75,7 @@ class TopicsBasedVideoSegmenter(BaseVideoSegmenter):
         )
         return literal_eval(topics_str)
 
-    def load_global_topics(
-        self, videos: list[Video]
-    ) -> list[str]:
+    def load_global_topics(self, videos: list[Video]) -> list[str]:
         all_topics = list(itertools.chain.from_iterable([v.topics for v in videos]))
         topics_prompt = self.prompts_template.get_global_topics.format(
             topics_collection=all_topics
@@ -155,7 +159,10 @@ class WordVideoSegmenter(TopicsBasedVideoSegmenter):
         return segments
 
     def classify_segment_topics(
-        self, segments: list[VideoSegment], topics: dict[str, str]
+        self,
+        segments: list[VideoSegment],
+        topics: dict[str, str],
+        local_topics: bool = True,
     ) -> list[VideoSegment]:
         classified_segments: list[VideoSegment] = []
 
@@ -171,11 +178,15 @@ class WordVideoSegmenter(TopicsBasedVideoSegmenter):
 
             segment_topic = literal_eval(topics_str)
             topic_id, _ = segment_topic.popitem()
-            segment.video_topic = topics[topic_id]
+            if local_topics:
+                segment.video_topic = topics[topic_id]
+            else:
+                segment.global_topic = topics[topic_id]
 
             previous = classified_segments[-1] if classified_segments else None
             if (
-                previous is not None
+                local_topics
+                and previous is not None
                 and previous.video_topic == segment.video_topic
                 and (
                     self.max_segment_length is None
@@ -209,21 +220,26 @@ class WordVideoSegmenter(TopicsBasedVideoSegmenter):
         return video
 
     def create_videos_segments(
-        self, videos: list[Video], language: str = "pt", global_topics: Optional[list[str] | dict[int | str, str]] = None
+        self,
+        videos: list[Video],
+        language: str = "pt",
+        global_topics: Optional[list[str] | dict[str, str]] = None,
     ) -> list[Video]:
-        videos = [
-            self.create_video_segments(video, language) for video in videos
-        ]
+        videos = [self.create_video_segments(video, language) for video in videos]
 
         if not global_topics:
             global_topics = self.load_global_topics(videos)
 
         if isinstance(global_topics, list):
-            global_topics = {
-                i: topic for i, topic in enumerate(global_topics)
-            }
+            global_topics = {str(i): topic for i, topic in enumerate(global_topics)}
 
-        return []
+        for video in videos:
+            video.segments = self.classify_segment_topics(
+                video.segments, global_topics, local_topics=False
+            )
+
+        return videos
+
 
 class ClusteredVideoSegmenter(TopicsBasedVideoSegmenter):
     def __init__(
