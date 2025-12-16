@@ -16,7 +16,7 @@
                 "end": 56.46,
                 "order": 0,
                 "video_topic": "US-Brazil Relations and Trade",
-                "global_topic": "",
+                "global_topic": "US-Brazil relations and trade",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bolsonaro_trump/jornal_nacional.mp4"
             },
             {
@@ -25,7 +25,7 @@
                 "end": 79.6,
                 "order": 1,
                 "video_topic": "Symbolic Exchange of Football Jerseys",
-                "global_topic": "",
+                "global_topic": "Bilateral relations between Bolsonaro and Trump",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bolsonaro_trump/jornal_nacional.mp4"
             },
             {
@@ -34,7 +34,7 @@
                 "end": 132.28,
                 "order": 2,
                 "video_topic": "US-Brazil Relations and Trade",
-                "global_topic": "",
+                "global_topic": "US-Brazil relations and trade",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bolsonaro_trump/jornal_nacional.mp4"
             },
             {
@@ -43,7 +43,7 @@
                 "end": 168.7,
                 "order": 3,
                 "video_topic": "Potential Military Action in Venezuela",
-                "global_topic": "",
+                "global_topic": "Venezuela crisis and potential interventions",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bolsonaro_trump/jornal_nacional.mp4"
             },
             {
@@ -52,7 +52,7 @@
                 "end": 231.48,
                 "order": 4,
                 "video_topic": "US-Brazil Relations and Trade",
-                "global_topic": "",
+                "global_topic": "US-Brazil relations and trade",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bolsonaro_trump/jornal_nacional.mp4"
             }
         ]
@@ -76,7 +76,7 @@
                 "end": 5.9,
                 "order": 0,
                 "video_topic": "Bolsonaro's Meeting with Trump at the White House",
-                "global_topic": "",
+                "global_topic": "Bilateral relations between Bolsonaro and Trump",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bolsonaro_trump/jornal_da_band.mp4"
             },
             {
@@ -85,7 +85,7 @@
                 "end": 20.32,
                 "order": 1,
                 "video_topic": "Discussions on Trade Agreements and Venezuela Crisis",
-                "global_topic": "",
+                "global_topic": "US-Brazil relations and trade",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bolsonaro_trump/jornal_da_band.mp4"
             },
             {
@@ -94,7 +94,7 @@
                 "end": 74.48,
                 "order": 2,
                 "video_topic": "Bolsonaro's Meeting with Trump at the White House",
-                "global_topic": "",
+                "global_topic": "Bilateral relations between Bolsonaro and Trump",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bolsonaro_trump/jornal_da_band.mp4"
             },
             {
@@ -103,7 +103,7 @@
                 "end": 83.1,
                 "order": 3,
                 "video_topic": "Details of the Bilateral Meeting between Bolsonaro and Trump",
-                "global_topic": "",
+                "global_topic": "Bilateral relations between Bolsonaro and Trump",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bolsonaro_trump/jornal_da_band.mp4"
             },
             {
@@ -112,7 +112,7 @@
                 "end": 111.88,
                 "order": 4,
                 "video_topic": "Trump's Support for Brazil's Entry into OCDE and NATO",
-                "global_topic": "",
+                "global_topic": "US-Brazil relations and trade",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bolsonaro_trump/jornal_da_band.mp4"
             },
             {
@@ -121,7 +121,7 @@
                 "end": 118.26,
                 "order": 5,
                 "video_topic": "Focus on Restoring Democracy in Venezuela",
-                "global_topic": "",
+                "global_topic": "Venezuela crisis and potential interventions",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bolsonaro_trump/jornal_da_band.mp4"
             },
             {
@@ -130,7 +130,7 @@
                 "end": 145.24,
                 "order": 6,
                 "video_topic": "Bolsonaro's Meeting with Trump at the White House",
-                "global_topic": "",
+                "global_topic": "Venezuela crisis and potential interventions",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bolsonaro_trump/jornal_da_band.mp4"
             },
             {
@@ -139,7 +139,7 @@
                 "end": 161.2,
                 "order": 7,
                 "video_topic": "Trump's Support for Brazil's Entry into OCDE and NATO",
-                "global_topic": "",
+                "global_topic": "Bolsonaro's foreign policy goals (OECD, NATO)",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bolsonaro_trump/jornal_da_band.mp4"
             },
             {
@@ -148,7 +148,7 @@
                 "end": 170.42,
                 "order": 8,
                 "video_topic": "Bolsonaro's Meeting with Trump at the White House",
-                "global_topic": "",
+                "global_topic": "Bolsonaro's foreign policy goals (OECD, NATO)",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bolsonaro_trump/jornal_da_band.mp4"
             },
             {
@@ -157,7 +157,7 @@
                 "end": 197.96,
                 "order": 9,
                 "video_topic": "Focus on Restoring Democracy in Venezuela",
-                "global_topic": "",
+                "global_topic": "Venezuela crisis and potential interventions",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bolsonaro_trump/jornal_da_band.mp4"
             },
             {
@@ -166,7 +166,7 @@
                 "end": 216.42,
                 "order": 10,
                 "video_topic": "Agreements on Security Cooperation and Combating Terrorism",
-                "global_topic": "",
+                "global_topic": "Security cooperation and combating terrorism",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bolsonaro_trump/jornal_da_band.mp4"
             },
             {
@@ -175,7 +175,7 @@
                 "end": 260.78,
                 "order": 11,
                 "video_topic": "Bolsonaro's Meeting with Trump at the White House",
-                "global_topic": "",
+                "global_topic": "Bilateral relations between Bolsonaro and Trump",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bolsonaro_trump/jornal_da_band.mp4"
             },
             {
@@ -184,7 +184,7 @@
                 "end": 267.72,
                 "order": 12,
                 "video_topic": "Bolsonaro's Interview with Fox News and Controversial Statements",
-                "global_topic": "",
+                "global_topic": "Bilateral relations between Bolsonaro and Trump",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bolsonaro_trump/jornal_da_band.mp4"
             },
             {
@@ -193,7 +193,7 @@
                 "end": 273.36,
                 "order": 13,
                 "video_topic": "Bolsonaro's Meeting with Trump at the White House",
-                "global_topic": "",
+                "global_topic": "US-Brazil relations and trade",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bolsonaro_trump/jornal_da_band.mp4"
             },
             {
@@ -202,7 +202,7 @@
                 "end": 337.2,
                 "order": 14,
                 "video_topic": "Bolsonaro's Interview with Fox News and Controversial Statements",
-                "global_topic": "",
+                "global_topic": "Bilateral relations between Bolsonaro and Trump",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bolsonaro_trump/jornal_da_band.mp4"
             },
             {
@@ -211,7 +211,7 @@
                 "end": 343.76,
                 "order": 15,
                 "video_topic": "Bolsonaro's Meeting with Trump at the White House",
-                "global_topic": "",
+                "global_topic": "Bilateral relations between Bolsonaro and Trump",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bolsonaro_trump/jornal_da_band.mp4"
             },
             {
@@ -220,7 +220,7 @@
                 "end": 349.84,
                 "order": 16,
                 "video_topic": "Bolsonaro's Interview with Fox News and Controversial Statements",
-                "global_topic": "",
+                "global_topic": "US-Brazil relations and trade",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bolsonaro_trump/jornal_da_band.mp4"
             },
             {
@@ -229,7 +229,7 @@
                 "end": 372.76,
                 "order": 17,
                 "video_topic": "Bolsonaro's Meeting with Trump at the White House",
-                "global_topic": "",
+                "global_topic": "US-Brazil relations and trade",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bolsonaro_trump/jornal_da_band.mp4"
             }
         ]
@@ -251,7 +251,7 @@
                 "end": 38.04,
                 "order": 0,
                 "video_topic": "Meeting between Brazilian and American Presidents",
-                "global_topic": "",
+                "global_topic": "Bilateral relations between Bolsonaro and Trump",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bolsonaro_trump/jornal_da_record.mp4"
             },
             {
@@ -260,7 +260,7 @@
                 "end": 47.06,
                 "order": 1,
                 "video_topic": "Support for Brazil's entry into the OECD",
-                "global_topic": "",
+                "global_topic": "US-Brazil relations and trade",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bolsonaro_trump/jornal_da_record.mp4"
             },
             {
@@ -269,7 +269,7 @@
                 "end": 56.04,
                 "order": 2,
                 "video_topic": "Meeting between Brazilian and American Presidents",
-                "global_topic": "",
+                "global_topic": "Bilateral relations between Bolsonaro and Trump",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bolsonaro_trump/jornal_da_record.mp4"
             },
             {
@@ -278,7 +278,7 @@
                 "end": 73.76,
                 "order": 3,
                 "video_topic": "Bolsonaro's apology regarding his comments on Brazilian immigrants in the US",
-                "global_topic": "",
+                "global_topic": "Bilateral relations between Bolsonaro and Trump",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bolsonaro_trump/jornal_da_record.mp4"
             },
             {
@@ -287,7 +287,7 @@
                 "end": 84.94,
                 "order": 4,
                 "video_topic": "Potential for Brazil to become an ally of NATO",
-                "global_topic": "",
+                "global_topic": "Bolsonaro's foreign policy goals (OECD, NATO)",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bolsonaro_trump/jornal_da_record.mp4"
             },
             {
@@ -296,7 +296,7 @@
                 "end": 103.32,
                 "order": 5,
                 "video_topic": "Venezuela situation and possible interventions",
-                "global_topic": "",
+                "global_topic": "Venezuela crisis and potential interventions",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bolsonaro_trump/jornal_da_record.mp4"
             },
             {
@@ -305,7 +305,7 @@
                 "end": 110.98,
                 "order": 6,
                 "video_topic": "Bolsonaro's apology regarding his comments on Brazilian immigrants in the US",
-                "global_topic": "",
+                "global_topic": "US-Brazil relations and trade",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bolsonaro_trump/jornal_da_record.mp4"
             },
             {
@@ -314,7 +314,7 @@
                 "end": 121.48,
                 "order": 7,
                 "video_topic": "Meeting between Brazilian and American Presidents",
-                "global_topic": "",
+                "global_topic": "US-Brazil relations and trade",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bolsonaro_trump/jornal_da_record.mp4"
             },
             {
@@ -323,7 +323,7 @@
                 "end": 128.5,
                 "order": 8,
                 "video_topic": "Venezuela situation and possible interventions",
-                "global_topic": "",
+                "global_topic": "Venezuela crisis and potential interventions",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bolsonaro_trump/jornal_da_record.mp4"
             },
             {
@@ -332,7 +332,7 @@
                 "end": 143.86,
                 "order": 9,
                 "video_topic": "Meeting between Brazilian and American Presidents",
-                "global_topic": "",
+                "global_topic": "Venezuela crisis and potential interventions",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bolsonaro_trump/jornal_da_record.mp4"
             },
             {
@@ -341,7 +341,7 @@
                 "end": 162.42,
                 "order": 10,
                 "video_topic": "Bolsonaro's apology regarding his comments on Brazilian immigrants in the US",
-                "global_topic": "",
+                "global_topic": "Bilateral relations between Bolsonaro and Trump",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bolsonaro_trump/jornal_da_record.mp4"
             },
             {
@@ -350,7 +350,7 @@
                 "end": 180.08,
                 "order": 11,
                 "video_topic": "Meeting between Brazilian and American Presidents",
-                "global_topic": "",
+                "global_topic": "Bilateral relations between Bolsonaro and Trump",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bolsonaro_trump/jornal_da_record.mp4"
             }
         ]

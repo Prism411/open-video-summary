@@ -15,7 +15,7 @@
                 "end": 45.08,
                 "order": 0,
                 "video_topic": "Impacto da decisão do Google sobre os usuários de Huawei",
-                "global_topic": "",
+                "global_topic": "Impact of Google's decision on Huawei users",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/google_huawei/sbt_brasil.mp4"
             },
             {
@@ -24,7 +24,7 @@
                 "end": 56.18,
                 "order": 1,
                 "video_topic": "O papel da tecnologia 5G na disputa entre EUA e China",
-                "global_topic": "",
+                "global_topic": "US-China tech rivalry and 5G",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/google_huawei/sbt_brasil.mp4"
             },
             {
@@ -33,7 +33,7 @@
                 "end": 73.32,
                 "order": 2,
                 "video_topic": "Impacto da decisão do Google sobre os usuários de Huawei",
-                "global_topic": "",
+                "global_topic": "Impact of Google's decision on Huawei users",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/google_huawei/sbt_brasil.mp4"
             },
             {
@@ -42,7 +42,7 @@
                 "end": 86.8,
                 "order": 3,
                 "video_topic": "Acusações dos EUA contra a Huawei e as respostas da China",
-                "global_topic": "",
+                "global_topic": "Cybersecurity concerns related to Huawei",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/google_huawei/sbt_brasil.mp4"
             },
             {
@@ -51,7 +51,7 @@
                 "end": 94.48,
                 "order": 4,
                 "video_topic": "Impacto da decisão do Google sobre os usuários de Huawei",
-                "global_topic": "",
+                "global_topic": "US-China tech rivalry and 5G",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/google_huawei/sbt_brasil.mp4"
             },
             {
@@ -60,7 +60,7 @@
                 "end": 103.3,
                 "order": 5,
                 "video_topic": "Desenvolvimento de uma nova plataforma por parte da Huawei",
-                "global_topic": "",
+                "global_topic": "Huawei's alternative platform development",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/google_huawei/sbt_brasil.mp4"
             }
         ]
@@ -81,7 +81,7 @@
                 "end": 6.2,
                 "order": 0,
                 "video_topic": "Guerra comercial entre China e Estados Unidos",
-                "global_topic": "",
+                "global_topic": "Impact of Google's decision on Huawei users",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/google_huawei/jornal_nacional.mp4"
             },
             {
@@ -90,7 +90,7 @@
                 "end": 22.24,
                 "order": 1,
                 "video_topic": "Sistema operacional Android e sua importância para os smartphones",
-                "global_topic": "",
+                "global_topic": "Android's role in the smartphone ecosystem",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/google_huawei/jornal_nacional.mp4"
             },
             {
@@ -99,7 +99,7 @@
                 "end": 93.9,
                 "order": 2,
                 "video_topic": "Guerra comercial entre China e Estados Unidos",
-                "global_topic": "",
+                "global_topic": "US-China tech rivalry and 5G",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/google_huawei/jornal_nacional.mp4"
             },
             {
@@ -108,7 +108,7 @@
                 "end": 103.22,
                 "order": 3,
                 "video_topic": "Tecnologia 5G e disputa entre EUA e China",
-                "global_topic": "",
+                "global_topic": "US-China tech rivalry and 5G",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/google_huawei/jornal_nacional.mp4"
             }
         ]
@@ -128,7 +128,7 @@
                 "end": 43.64,
                 "order": 0,
                 "video_topic": "Google's decision to stop updating Huawei apps",
-                "global_topic": "",
+                "global_topic": "Impact of Google's decision on Huawei users",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/google_huawei/jornal_da_band.mp4"
             },
             {
@@ -137,7 +137,7 @@
                 "end": 52.36,
                 "order": 1,
                 "video_topic": "Huawei's alleged involvement in cyber espionage",
-                "global_topic": "",
+                "global_topic": "Cybersecurity concerns related to Huawei",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/google_huawei/jornal_da_band.mp4"
             }
         ]

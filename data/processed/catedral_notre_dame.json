@@ -16,7 +16,7 @@
                 "end": 51.22,
                 "order": 0,
                 "video_topic": "Notre Dame fire damage and impact on cultural heritage",
-                "global_topic": "",
+                "global_topic": "Notre Dame fire damage and impact",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/catedral_notre_dame/jornal_nacional.mp4"
             },
             {
@@ -25,7 +25,7 @@
                 "end": 60.62,
                 "order": 1,
                 "video_topic": "Firefighting efforts and challenges faced by firefighters",
-                "global_topic": "",
+                "global_topic": "Firefighting efforts and challenges",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/catedral_notre_dame/jornal_nacional.mp4"
             },
             {
@@ -34,7 +34,7 @@
                 "end": 70.68,
                 "order": 2,
                 "video_topic": "Notre Dame fire damage and impact on cultural heritage",
-                "global_topic": "",
+                "global_topic": "Destruction of Notre Dame Cathedral",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/catedral_notre_dame/jornal_nacional.mp4"
             },
             {
@@ -43,7 +43,7 @@
                 "end": 80.48,
                 "order": 3,
                 "video_topic": "Historical significance of Notre Dame and its reconstruction plans",
-                "global_topic": "",
+                "global_topic": "Destruction of Notre Dame Cathedral",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/catedral_notre_dame/jornal_nacional.mp4"
             },
             {
@@ -52,7 +52,7 @@
                 "end": 89.68,
                 "order": 4,
                 "video_topic": "Public reaction and emotional response to the fire",
-                "global_topic": "",
+                "global_topic": "Public reaction and emotional response",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/catedral_notre_dame/jornal_nacional.mp4"
             },
             {
@@ -61,7 +61,7 @@
                 "end": 113.48,
                 "order": 5,
                 "video_topic": "Notre Dame fire damage and impact on cultural heritage",
-                "global_topic": "",
+                "global_topic": "Notre Dame fire damage and impact",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/catedral_notre_dame/jornal_nacional.mp4"
             },
             {
@@ -70,7 +70,7 @@
                 "end": 151.34,
                 "order": 6,
                 "video_topic": "Historical significance of Notre Dame and its reconstruction plans",
-                "global_topic": "",
+                "global_topic": "Historical significance and reconstruction plans",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/catedral_notre_dame/jornal_nacional.mp4"
             }
         ]
@@ -92,7 +92,7 @@
                 "end": 94.12,
                 "order": 0,
                 "video_topic": "Destruction of Notre Dame Cathedral",
-                "global_topic": "",
+                "global_topic": "Destruction of Notre Dame Cathedral",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/catedral_notre_dame/jornal_da_band.mp4"
             },
             {
@@ -101,7 +101,7 @@
                 "end": 104.34,
                 "order": 1,
                 "video_topic": "Impact on Tourism and Visitors",
-                "global_topic": "",
+                "global_topic": "Public reaction and emotional response",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/catedral_notre_dame/jornal_da_band.mp4"
             },
             {
@@ -110,7 +110,7 @@
                 "end": 111.68,
                 "order": 2,
                 "video_topic": "Cause of the fire at Notre Dame",
-                "global_topic": "",
+                "global_topic": "Investigation into the cause and international support",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/catedral_notre_dame/jornal_da_band.mp4"
             },
             {
@@ -119,7 +119,7 @@
                 "end": 125.24,
                 "order": 3,
                 "video_topic": "Destruction of Notre Dame Cathedral",
-                "global_topic": "",
+                "global_topic": "Destruction of Notre Dame Cathedral",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/catedral_notre_dame/jornal_da_band.mp4"
             },
             {
@@ -128,7 +128,7 @@
                 "end": 135.12,
                 "order": 4,
                 "video_topic": "Impact on Tourism and Visitors",
-                "global_topic": "",
+                "global_topic": "Destruction of Notre Dame Cathedral",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/catedral_notre_dame/jornal_da_band.mp4"
             },
             {
@@ -137,7 +137,7 @@
                 "end": 156.1,
                 "order": 5,
                 "video_topic": "International Response to the Notre Dame Fire",
-                "global_topic": "",
+                "global_topic": "Public reaction and emotional response",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/catedral_notre_dame/jornal_da_band.mp4"
             },
             {
@@ -146,7 +146,7 @@
                 "end": 177.78,
                 "order": 6,
                 "video_topic": "Efforts to Combat the Fire",
-                "global_topic": "",
+                "global_topic": "Firefighting efforts and challenges",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/catedral_notre_dame/jornal_da_band.mp4"
             },
             {
@@ -155,7 +155,7 @@
                 "end": 193.4,
                 "order": 7,
                 "video_topic": "Destruction of Notre Dame Cathedral",
-                "global_topic": "",
+                "global_topic": "Notre Dame fire damage and impact",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/catedral_notre_dame/jornal_da_band.mp4"
             }
         ]
@@ -177,7 +177,7 @@
                 "end": 21.86,
                 "order": 0,
                 "video_topic": "Notre Dame fire containment and damage",
-                "global_topic": "",
+                "global_topic": "Notre Dame fire damage and impact",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/catedral_notre_dame/jornal_da_record.mp4"
             },
             {
@@ -186,7 +186,7 @@
                 "end": 31.2,
                 "order": 1,
                 "video_topic": "Rescue efforts and firefighter response",
-                "global_topic": "",
+                "global_topic": "Notre Dame fire damage and impact",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/catedral_notre_dame/jornal_da_record.mp4"
             },
             {
@@ -195,7 +195,7 @@
                 "end": 49.78,
                 "order": 2,
                 "video_topic": "Notre Dame fire containment and damage",
-                "global_topic": "",
+                "global_topic": "Destruction of Notre Dame Cathedral",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/catedral_notre_dame/jornal_da_record.mp4"
             },
             {
@@ -204,7 +204,7 @@
                 "end": 72.1,
                 "order": 3,
                 "video_topic": "Rescue efforts and firefighter response",
-                "global_topic": "",
+                "global_topic": "Notre Dame fire damage and impact",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/catedral_notre_dame/jornal_da_record.mp4"
             },
             {
@@ -213,7 +213,7 @@
                 "end": 89.1,
                 "order": 4,
                 "video_topic": "Notre Dame fire containment and damage",
-                "global_topic": "",
+                "global_topic": "Destruction of Notre Dame Cathedral",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/catedral_notre_dame/jornal_da_record.mp4"
             },
             {
@@ -222,7 +222,7 @@
                 "end": 100.18,
                 "order": 5,
                 "video_topic": "Public reaction and emotional impact",
-                "global_topic": "",
+                "global_topic": "Public reaction and emotional response",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/catedral_notre_dame/jornal_da_record.mp4"
             },
             {
@@ -231,7 +231,7 @@
                 "end": 112.7,
                 "order": 6,
                 "video_topic": "Rescue efforts and firefighter response",
-                "global_topic": "",
+                "global_topic": "Historical significance and reconstruction plans",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/catedral_notre_dame/jornal_da_record.mp4"
             },
             {
@@ -240,7 +240,7 @@
                 "end": 126.0,
                 "order": 7,
                 "video_topic": "Notre Dame fire containment and damage",
-                "global_topic": "",
+                "global_topic": "Notre Dame fire damage and impact",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/catedral_notre_dame/jornal_da_record.mp4"
             },
             {
@@ -249,7 +249,7 @@
                 "end": 147.98,
                 "order": 8,
                 "video_topic": "Public reaction and emotional impact",
-                "global_topic": "",
+                "global_topic": "Public reaction and emotional response",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/catedral_notre_dame/jornal_da_record.mp4"
             }
         ]

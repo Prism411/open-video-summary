@@ -15,7 +15,7 @@
                 "end": 41.48,
                 "order": 0,
                 "video_topic": "Apresentação do bebê real",
-                "global_topic": "",
+                "global_topic": "Apresentação do bebê real",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bebe_real/jornal_nacional.mp4"
             },
             {
@@ -24,7 +24,7 @@
                 "end": 52.24,
                 "order": 1,
                 "video_topic": "Nome do bebê Archie Harrison Mountbatten-Windsor",
-                "global_topic": "",
+                "global_topic": "Nome e nacionalidade do bebê",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bebe_real/jornal_nacional.mp4"
             },
             {
@@ -33,7 +33,7 @@
                 "end": 67.48,
                 "order": 2,
                 "video_topic": "Apresentação do bebê real",
-                "global_topic": "",
+                "global_topic": "Apresentação do bebê real",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bebe_real/jornal_nacional.mp4"
             }
         ]
@@ -53,7 +53,7 @@
                 "end": 6.06,
                 "order": 0,
                 "video_topic": "Apresentação pública do bebê real Archie Harrison",
-                "global_topic": "",
+                "global_topic": "Apresentação do bebê real",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bebe_real/jornal_da_band.mp4"
             },
             {
@@ -62,7 +62,7 @@
                 "end": 24.72,
                 "order": 1,
                 "video_topic": "Detalhes sobre o temperamento e características do bebê",
-                "global_topic": "",
+                "global_topic": "Detalhes sobre o temperamento e características do bebê",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bebe_real/jornal_da_band.mp4"
             },
             {
@@ -71,7 +71,7 @@
                 "end": 37.44,
                 "order": 2,
                 "video_topic": "Apresentação pública do bebê real Archie Harrison",
-                "global_topic": "",
+                "global_topic": "Nome e nacionalidade do bebê",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bebe_real/jornal_da_band.mp4"
             },
             {
@@ -80,7 +80,7 @@
                 "end": 47.52,
                 "order": 3,
                 "video_topic": "Linha de sucessão e histórico familiar do bebê",
-                "global_topic": "",
+                "global_topic": "Linha de sucessão",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bebe_real/jornal_da_band.mp4"
             },
             {
@@ -89,7 +89,7 @@
                 "end": 51.26,
                 "order": 4,
                 "video_topic": "Apresentação pública do bebê real Archie Harrison",
-                "global_topic": "",
+                "global_topic": "Apresentação do bebê real",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bebe_real/jornal_da_band.mp4"
             }
         ]
@@ -110,7 +110,7 @@
                 "end": 37.86,
                 "order": 0,
                 "video_topic": "Apresentação do bebê real",
-                "global_topic": "",
+                "global_topic": "Apresentação do bebê real",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bebe_real/jornal_da_record.mp4"
             },
             {
@@ -119,7 +119,7 @@
                 "end": 45.86,
                 "order": 1,
                 "video_topic": "Nome e nacionalidade do bebê",
-                "global_topic": "",
+                "global_topic": "Nome e nacionalidade do bebê",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bebe_real/jornal_da_record.mp4"
             },
             {
@@ -128,7 +128,7 @@
                 "end": 56.9,
                 "order": 2,
                 "video_topic": "Apresentação do bebê real",
-                "global_topic": "",
+                "global_topic": "Apresentação do bebê real",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bebe_real/jornal_da_record.mp4"
             },
             {
@@ -137,7 +137,7 @@
                 "end": 76.4,
                 "order": 3,
                 "video_topic": "Reação da família real",
-                "global_topic": "",
+                "global_topic": "Reação da família real",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bebe_real/jornal_da_record.mp4"
             },
             {
@@ -146,7 +146,7 @@
                 "end": 82.18,
                 "order": 4,
                 "video_topic": "Apresentação do bebê real",
-                "global_topic": "",
+                "global_topic": "Apresentação do bebê real",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/bebe_real/jornal_da_record.mp4"
             }
         ]

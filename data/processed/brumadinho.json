@@ -17,7 +17,7 @@
                 "end": 54.36,
                 "order": 0,
                 "video_topic": "Barragem rompimento e destruição em Brumadinho",
-                "global_topic": "",
+                "global_topic": "Barragem rompimento e destruição em Brumadinho",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/brumadinho/jornal_nacional.mp4"
             },
             {
@@ -26,7 +26,7 @@
                 "end": 69.04,
                 "order": 1,
                 "video_topic": "Responsabilidade da Vale e investigação das causas",
-                "global_topic": "",
+                "global_topic": "Responsabilidade da Vale e investigação das causas",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/brumadinho/jornal_nacional.mp4"
             },
             {
@@ -35,7 +35,7 @@
                 "end": 75.06,
                 "order": 2,
                 "video_topic": "Vítimas e buscas por sobreviventes",
-                "global_topic": "",
+                "global_topic": "Relato dos moradores e operários sobre o acidente",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/brumadinho/jornal_nacional.mp4"
             },
             {
@@ -44,7 +44,7 @@
                 "end": 97.32,
                 "order": 3,
                 "video_topic": "Barragem rompimento e destruição em Brumadinho",
-                "global_topic": "",
+                "global_topic": "Barragem rompimento e destruição em Brumadinho",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/brumadinho/jornal_nacional.mp4"
             },
             {
@@ -53,7 +53,7 @@
                 "end": 106.48,
                 "order": 4,
                 "video_topic": "Medidas de segurança e alerta para outras cidades",
-                "global_topic": "",
+                "global_topic": "Medidas de segurança e alerta para outras cidades",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/brumadinho/jornal_nacional.mp4"
             },
             {
@@ -62,7 +62,7 @@
                 "end": 168.58,
                 "order": 5,
                 "video_topic": "Barragem rompimento e destruição em Brumadinho",
-                "global_topic": "",
+                "global_topic": "Barragem rompimento e destruição em Brumadinho",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/brumadinho/jornal_nacional.mp4"
             },
             {
@@ -71,7 +71,7 @@
                 "end": 177.34,
                 "order": 6,
                 "video_topic": "Comparação com a tragédia de Mariana em 2015",
-                "global_topic": "",
+                "global_topic": "Comparação com a tragédia de Mariana em 2015",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/brumadinho/jornal_nacional.mp4"
             },
             {
@@ -80,7 +80,7 @@
                 "end": 196.22,
                 "order": 7,
                 "video_topic": "Barragem rompimento e destruição em Brumadinho",
-                "global_topic": "",
+                "global_topic": "Comparação com a tragédia de Mariana em 2015",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/brumadinho/jornal_nacional.mp4"
             },
             {
@@ -89,7 +89,7 @@
                 "end": 205.92,
                 "order": 8,
                 "video_topic": "Responsabilidade da Vale e investigação das causas",
-                "global_topic": "",
+                "global_topic": "Risco de barragens em Minas Gerais e no Brasil",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/brumadinho/jornal_nacional.mp4"
             },
             {
@@ -98,7 +98,7 @@
                 "end": 226.44,
                 "order": 9,
                 "video_topic": "Barragem rompimento e destruição em Brumadinho",
-                "global_topic": "",
+                "global_topic": "Barragem rompimento e destruição em Brumadinho",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/brumadinho/jornal_nacional.mp4"
             },
             {
@@ -107,7 +107,7 @@
                 "end": 237.48,
                 "order": 10,
                 "video_topic": "Impacto ambiental na região de Minas Gerais",
-                "global_topic": "",
+                "global_topic": "Risco de barragens em Minas Gerais e no Brasil",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/brumadinho/jornal_nacional.mp4"
             },
             {
@@ -116,7 +116,7 @@
                 "end": 257.02,
                 "order": 11,
                 "video_topic": "Barragem rompimento e destruição em Brumadinho",
-                "global_topic": "",
+                "global_topic": "Barragem rompimento e destruição em Brumadinho",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/brumadinho/jornal_nacional.mp4"
             },
             {
@@ -125,7 +125,7 @@
                 "end": 263.48,
                 "order": 12,
                 "video_topic": "Responsabilidade da Vale e investigação das causas",
-                "global_topic": "",
+                "global_topic": "Responsabilidade da Vale e investigação das causas",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/brumadinho/jornal_nacional.mp4"
             },
             {
@@ -134,7 +134,7 @@
                 "end": 294.98,
                 "order": 13,
                 "video_topic": "Barragem rompimento e destruição em Brumadinho",
-                "global_topic": "",
+                "global_topic": "Vítimas e buscas por sobreviventes",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/brumadinho/jornal_nacional.mp4"
             },
             {
@@ -143,7 +143,7 @@
                 "end": 313.9,
                 "order": 14,
                 "video_topic": "Vítimas e buscas por sobreviventes",
-                "global_topic": "",
+                "global_topic": "Vítimas e buscas por sobreviventes",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/brumadinho/jornal_nacional.mp4"
             },
             {
@@ -152,7 +152,7 @@
                 "end": 326.82,
                 "order": 15,
                 "video_topic": "Responsabilidade da Vale e investigação das causas",
-                "global_topic": "",
+                "global_topic": "Responsabilidade da Vale e investigação das causas",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/brumadinho/jornal_nacional.mp4"
             }
         ]
@@ -175,7 +175,7 @@
                 "end": 12.86,
                 "order": 0,
                 "video_topic": "Barragem de rejeitos da Vale se rompe em Brumadinho",
-                "global_topic": "",
+                "global_topic": "Barragem rompimento e destruição em Brumadinho",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/brumadinho/jornal_da_band.mp4"
             },
             {
@@ -184,7 +184,7 @@
                 "end": 22.06,
                 "order": 1,
                 "video_topic": "Desastre em Brumadinho: número de desaparecidos pode chegar a 300",
-                "global_topic": "",
+                "global_topic": "Vítimas e buscas por sobreviventes",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/brumadinho/jornal_da_band.mp4"
             },
             {
@@ -193,7 +193,7 @@
                 "end": 50.94,
                 "order": 2,
                 "video_topic": "Barragem de rejeitos da Vale se rompe em Brumadinho",
-                "global_topic": "",
+                "global_topic": "Barragem rompimento e destruição em Brumadinho",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/brumadinho/jornal_da_band.mp4"
             },
             {
@@ -202,7 +202,7 @@
                 "end": 62.46,
                 "order": 3,
                 "video_topic": "Busca por vítimas e trabalho de resgate",
-                "global_topic": "",
+                "global_topic": "Vítimas e buscas por sobreviventes",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/brumadinho/jornal_da_band.mp4"
             },
             {
@@ -211,7 +211,7 @@
                 "end": 177.96,
                 "order": 4,
                 "video_topic": "Barragem de rejeitos da Vale se rompe em Brumadinho",
-                "global_topic": "",
+                "global_topic": "Relato dos moradores e operários sobre o acidente",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/brumadinho/jornal_da_band.mp4"
             },
             {
@@ -220,7 +220,7 @@
                 "end": 185.12,
                 "order": 5,
                 "video_topic": "Impacto da tragédia na comunidade e infraestrutura local",
-                "global_topic": "",
+                "global_topic": "Barragem rompimento e destruição em Brumadinho",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/brumadinho/jornal_da_band.mp4"
             },
             {
@@ -229,7 +229,7 @@
                 "end": 207.2,
                 "order": 6,
                 "video_topic": "Barragem de rejeitos da Vale se rompe em Brumadinho",
-                "global_topic": "",
+                "global_topic": "Medidas de segurança e alerta para outras cidades",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/brumadinho/jornal_da_band.mp4"
             },
             {
@@ -238,7 +238,7 @@
                 "end": 215.06,
                 "order": 7,
                 "video_topic": "Investigação das causas do rompimento da barragem",
-                "global_topic": "",
+                "global_topic": "Barragem rompimento e destruição em Brumadinho",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/brumadinho/jornal_da_band.mp4"
             },
             {
@@ -247,7 +247,7 @@
                 "end": 232.84,
                 "order": 8,
                 "video_topic": "Risco de barragens em Minas Gerais e no Brasil",
-                "global_topic": "",
+                "global_topic": "Risco de barragens em Minas Gerais e no Brasil",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/brumadinho/jornal_da_band.mp4"
             },
             {
@@ -256,7 +256,7 @@
                 "end": 240.32,
                 "order": 9,
                 "video_topic": "Barragem de rejeitos da Vale se rompe em Brumadinho",
-                "global_topic": "",
+                "global_topic": "Barragem rompimento e destruição em Brumadinho",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/brumadinho/jornal_da_band.mp4"
             }
         ]
@@ -280,7 +280,7 @@
                 "end": 15.02,
                 "order": 0,
                 "video_topic": "Relato dos moradores e operários sobre o acidente",
-                "global_topic": "",
+                "global_topic": "Relato dos moradores e operários sobre o acidente",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/brumadinho/jornal_da_record.mp4"
             },
             {
@@ -289,7 +289,7 @@
                 "end": 21.36,
                 "order": 1,
                 "video_topic": "Busca por sobreviventes durante a noite",
-                "global_topic": "",
+                "global_topic": "Barragem rompimento e destruição em Brumadinho",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/brumadinho/jornal_da_record.mp4"
             },
             {
@@ -298,7 +298,7 @@
                 "end": 66.96,
                 "order": 2,
                 "video_topic": "Relato dos moradores e operários sobre o acidente",
-                "global_topic": "",
+                "global_topic": "Vítimas e buscas por sobreviventes",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/brumadinho/jornal_da_record.mp4"
             },
             {
@@ -307,7 +307,7 @@
                 "end": 106.08,
                 "order": 3,
                 "video_topic": "Reação do governo de Minas Gerais e multa à Vale",
-                "global_topic": "",
+                "global_topic": "Reação do governo de Minas Gerais e multa à Vale",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/brumadinho/jornal_da_record.mp4"
             },
             {
@@ -316,7 +316,7 @@
                 "end": 118.38,
                 "order": 4,
                 "video_topic": "Número de barragens em Minas Gerais e preocupação dos engenheiros",
-                "global_topic": "",
+                "global_topic": "Risco de barragens em Minas Gerais e no Brasil",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/brumadinho/jornal_da_record.mp4"
             },
             {
@@ -325,7 +325,7 @@
                 "end": 133.86,
                 "order": 5,
                 "video_topic": "Comparação com a tragédia de Mariana",
-                "global_topic": "",
+                "global_topic": "Comparação com a tragédia de Mariana em 2015",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/brumadinho/jornal_da_record.mp4"
             },
             {
@@ -334,7 +334,7 @@
                 "end": 158.22,
                 "order": 6,
                 "video_topic": "Relato dos moradores e operários sobre o acidente",
-                "global_topic": "",
+                "global_topic": "Barragem rompimento e destruição em Brumadinho",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/brumadinho/jornal_da_record.mp4"
             },
             {
@@ -343,7 +343,7 @@
                 "end": 187.62,
                 "order": 7,
                 "video_topic": "Número de barragens em Minas Gerais e preocupação dos engenheiros",
-                "global_topic": "",
+                "global_topic": "Vítimas e buscas por sobreviventes",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/brumadinho/jornal_da_record.mp4"
             },
             {
@@ -352,7 +352,7 @@
                 "end": 196.6,
                 "order": 8,
                 "video_topic": "Lista de pessoas resgatadas e desaparecidas",
-                "global_topic": "",
+                "global_topic": "Vítimas e buscas por sobreviventes",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/brumadinho/jornal_da_record.mp4"
             },
             {
@@ -361,7 +361,7 @@
                 "end": 201.96,
                 "order": 9,
                 "video_topic": "Situação das famílias aguardando informações sobre parentes",
-                "global_topic": "",
+                "global_topic": "Relato dos moradores e operários sobre o acidente",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/brumadinho/jornal_da_record.mp4"
             },
             {
@@ -370,7 +370,7 @@
                 "end": 264.42,
                 "order": 10,
                 "video_topic": "Relato dos moradores e operários sobre o acidente",
-                "global_topic": "",
+                "global_topic": "Barragem rompimento e destruição em Brumadinho",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/brumadinho/jornal_da_record.mp4"
             },
             {
@@ -379,7 +379,7 @@
                 "end": 452.12,
                 "order": 11,
                 "video_topic": "Comparação com a tragédia de Mariana",
-                "global_topic": "",
+                "global_topic": "Barragem rompimento e destruição em Brumadinho",
                 "video_path": "/home/leo/phd/repos/open-video-summary/data/raw/brumadinho/jornal_da_record.mp4"
             }
         ]
