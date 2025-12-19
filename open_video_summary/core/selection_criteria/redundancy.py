@@ -3,10 +3,63 @@ from numpy import equal, tril
 from sklearn.feature_extraction.text import TfidfVectorizer  # type: ignore
 
 from open_video_summary.utils import log
+from open_video_summary.utils.helpers import custom_cosine
 from open_video_summary.entities.video import Video, VideoSegment
 from open_video_summary.handlers.summary import SummarySegmentHandler
 from open_video_summary.core.selection_criteria.base import SelectionCriteria
-from open_video_summary.utils.helpers import custom_cosine
+
+
+class TopicBasedRedundancy(SelectionCriteria):
+    TOPIC_TYPES = {"global_topic", "video_topic"}
+
+    def __init__(self, topic_type: str = "global_topic") -> None:
+        if topic_type not in self.TOPIC_TYPES:
+            raise ValueError(
+                f"Invalid topic_type '{topic_type}'. Must be one of {self.TOPIC_TYPES}."
+            )
+
+        super().__init__(read_from="source")
+        self.topic_type = topic_type
+
+    def evaluate(self, handler: SummarySegmentHandler) -> SummarySegmentHandler:
+        videos = [
+            video
+            for video in self.get_criteria_input(handler)
+            if isinstance(video, Video)
+        ]
+        log.info(f"Found {len(videos)} videos to execute {self.name} criteria.")
+
+        redundancy_clusters = self.cluster_by_topic(videos, handler)
+
+        for cluster in redundancy_clusters:
+            log.info(
+                f"Including cluster with {len(cluster)} elements to be chosen from."
+            )
+            self.pick(handler, cluster)
+
+        return handler
+
+    def cluster_by_topic(
+        self, videos: list[Video], handler: SummarySegmentHandler
+    ) -> list[set[VideoSegment]]:
+        log.info("Clustering videos by topic.")
+        topic_clusters: dict[str, set[VideoSegment]] = {}
+
+        for video in videos:
+            for segment in video.segments:
+                if (
+                    segment in handler.discard
+                    or segment in handler.output
+                    or not (topic := getattr(segment, self.topic_type, None))
+                ):
+                    continue
+
+                if topic not in topic_clusters:
+                    topic_clusters[topic] = set()
+
+                topic_clusters[topic].add(segment)
+
+        return list(topic_clusters.values())
 
 
 class ContentBasedRedundancy(SelectionCriteria):
