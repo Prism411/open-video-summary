@@ -1,4 +1,5 @@
 from open_video_summary.entities.video import Video, VideoSegment
+from open_video_summary.utils.processing.video import VideoProcessor
 
 
 class VideoHandler:

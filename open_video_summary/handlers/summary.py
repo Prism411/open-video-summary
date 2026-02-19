@@ -1,6 +1,6 @@
 from json import dump, load
 from dacite import from_dict
-from dataclasses import dataclass, field, asdict
+from dataclasses import dataclass, field, asdict, is_dataclass
 
 from open_video_summary.utils import log
 from open_video_summary.entities.summary import SummaryLog
@@ -90,12 +90,39 @@ class SummarySegmentHandler:
         self.__log_agent_action("pick", agent, segments)
         log.info("Added video segments to 'pick' set.")
 
+    def output_included_segments(self) -> None:
+        log.info("Moving all 'include' segments to output.")
+        for segment in self.__to_include:
+            self.__output.append(segment)
+        self.__to_include.clear()
+
+    def finalize(self) -> None:
+        log.info("Finalizing SummarySegmentHandler.")
+        if not self.__output:
+            self.output_included_segments()
+
 
 class SummarySegmentHandlerIO:
     @staticmethod
     def save(handler: SummarySegmentHandler, filepath: str) -> None:
         log.info("Saving SummarySegmentHandler to disk file.")
-        dump(asdict(handler), open(filepath, "w"))
+
+        def custom_encoder(obj):
+            if isinstance(obj, set):
+                return list(obj)
+            if is_dataclass(obj):
+                return asdict(obj)
+            raise TypeError(
+                f"Object of type {obj.__class__.__name__} is not JSON serializable"
+            )
+
+        dump(
+            asdict(handler),
+            open(filepath, "w", encoding="utf-8"),
+            default=custom_encoder,
+            ensure_ascii=False,
+            indent=4,
+        )
 
     @staticmethod
     def load(filepath: str) -> SummarySegmentHandler:

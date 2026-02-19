@@ -24,6 +24,7 @@ class Summarizer:
         handler.set_source_videos(videos)
 
         handler = reduce(lambda h, c: c.evaluate(h), self.selection_criteria, handler)
+        handler.finalize()
 
         if save_output:
             SummarySegmentHandlerIO.save(handler, handler_output_path)
