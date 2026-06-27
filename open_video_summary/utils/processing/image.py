@@ -46,7 +46,7 @@ class BagOfVisualWords:
 
         for key in doc_freq.keys():
             term_freq = tfs.apply(lambda x: x.get(key))
-            term_idf = log10(self.__dict_size / doc_freq.get(key))
+            term_idf = log10(len(self.__items) / doc_freq.get(key))
 
             new_df = self.__bovw_df.copy()
             new_df[key] = term_freq * term_idf
